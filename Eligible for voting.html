@@ -1,0 +1,23 @@
+<html>
+<script>
+function verify()
+{
+	if(document.getElementById("t1").value>=18)
+	{
+		document.write("Hey..!!!Congrats!!!!!You are eligible for VOTING");
+	}
+	else
+	{
+		alert("Hey..Sorry...!!!You are not eligible for VOTING");
+	}
+}
+</script>
+<body>
+<h3>Enter the Name:<input type="text"><br></h3>
+<h3>Enter the Aadhar Number:<input type="text"><br></h3>
+<h3>Enter the age:<input type="text" id="t1"><br></h3>
+<h3>Enter the Monile Number:<input type="text"><br></h3>
+<br>
+<button type="button" onclick="verify()"><h1>Verify whether able for VOTING</h1></button>
+</body>
+</html>
