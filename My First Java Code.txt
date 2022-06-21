@@ -1,0 +1,29 @@
+<html>
+<script>
+function verify()
+{
+	if(document.getElementById("t1").value=="Yes"||document.getElementById("t1").value=="YES"||document.getElementById("t1").value=="yes")
+	{
+		
+		window.alert("Hello Nobitha garu...Baga Excited aa....to Check whether Lucky or Not");
+		document.write("<h2><i>Now Only starting kada Andi.....Code em ledhu....APRIL FOOL</i><hr/>Adoo...krishna Bendakaya..Kuda trying to Match Chicken.......</h2>");
+
+		
+		
+	}
+	else
+	{
+		window.alert("If you are not willing to Open Code....Thats ok...Cool Have a Nice day");
+	}
+}
+</script>
+<body>
+<h1>Hello ,WELCOME TO THE MY CUTE JAVASCRIPT </h1>
+<h2 id="hcontent">Lets Check Are you a Lucky Person  to see My code or Not</h2>
+<h2>Enter Your choice Yes/No :<input type="text" id="t1"><br><h2>
+<button type="button" onclick="verify()">Verify</button><br>
+<img id="image" src="f2.png" width="100" height="100"><br><br>
+</body>
+</html>
+
+
