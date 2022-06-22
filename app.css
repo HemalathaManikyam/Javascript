@@ -1,0 +1,82 @@
+body{
+    background-color:skyblue;
+}
+h1{
+    text-align: left;
+    color: white;
+    margin-top: 115px;
+    margin-bottom: 50px;
+}
+.screen{
+    background-color: white;
+    border: solid black 2px;
+    color: black;
+    width: 100%;
+    padding: 10px;
+    font-size: medium;
+    cursor: default;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+input[type="button"]:hover{
+    background-color: whitesmoke;
+}
+input[type="button"]:active{
+    background-color:yellowgreen;
+}
+.number{
+    background-color: white;
+    border: solid black 3px;
+    color: black;
+    width: 90%;
+    padding: 10px;
+    font-size: medium;
+}
+.operator{
+    background-color: white;
+    border: solid black 3px;
+    color: black;
+    width: 90%;
+    padding: 10px;
+    font-size: medium;
+}
+.decimal{
+    background-color: lightcyan;
+    border: solid black 3px;
+    color: black;
+    width: 90%;
+    padding: 10px;
+    font-size: medium;
+}
+.equal{
+    background-color: lightgoldenrodyellow;
+    border: solid black 3px;
+    color: black;
+    width: 90%;
+    padding: 10px;
+    font-size: medium;
+}
+.clear{
+    background-color: white;
+    border: solid black 3px;
+    color: black;
+    width: 90%;
+    padding: 10px;
+    font-size: medium;
+
+}
+.container{
+    padding: 15px;
+    color: black;
+    border: solid black 2px;
+    width: 20%;
+    background-color:grey;
+    align-self: auto;
+    display: block;
+    border-radius: 10px;
+    margin: 100ppx auto;
+    box-shadow: 5px 10px 20px black;
+}
+.table{
+    width: 100%;
+}
