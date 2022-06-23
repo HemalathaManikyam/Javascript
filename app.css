@@ -1,82 +1,38 @@
 body{
-    background-color:skyblue;
+    background-color:lightseagreen;
 }
 h1{
-    text-align: left;
-    color: white;
-    margin-top: 115px;
-    margin-bottom: 50px;
-}
-.screen{
-    background-color: white;
-    border: solid black 2px;
     color: black;
-    width: 100%;
-    padding: 10px;
-    font-size: medium;
-    cursor: default;
-    margin-top: auto;
-    margin-bottom: 10px;
+    text-align: center;
+    font-size:xx-large;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    margin-bottom: 12px;
 }
-input[type="button"]:hover{
-    background-color: whitesmoke;
+#container{
+    background-color:rgb(154, 152, 7);
+    border: 3px solid whitesmoke;
+    padding: 2px;
+    width: 750px;
+    height: 250px;
+    margin: auto;
+    margin-top: 50px;
 }
-input[type="button"]:active{
-    background-color:yellowgreen;
-}
-.number{
-    background-color: white;
-    border: solid black 3px;
-    color: black;
-    width: 90%;
-    padding: 10px;
-    font-size: medium;
-}
-.operator{
-    background-color: white;
-    border: solid black 3px;
-    color: black;
-    width: 90%;
-    padding: 10px;
-    font-size: medium;
-}
-.decimal{
-    background-color: lightcyan;
-    border: solid black 3px;
-    color: black;
-    width: 90%;
-    padding: 10px;
-    font-size: medium;
-}
-.equal{
-    background-color: lightgoldenrodyellow;
-    border: solid black 3px;
-    color: black;
-    width: 90%;
-    padding: 10px;
-    font-size: medium;
-}
-.clear{
-    background-color: white;
-    border: solid black 3px;
-    color: black;
-    width: 90%;
-    padding: 10px;
-    font-size: medium;
+#btn{
+    margin: 20px auto;
+    width: 150px;
+    height:50px;
+    margin-left: 35%;
 
 }
-.container{
-    padding: 15px;
-    color: black;
-    border: solid black 2px;
-    width: 20%;
-    background-color:grey;
-    align-self: auto;
-    display: block;
-    border-radius: 10px;
-    margin: 100ppx auto;
-    box-shadow: 5px 10px 20px black;
+
+#output{
+    font-style: italic;
+    color: white;
+    font-size: large;
+    text-align: center;
+    margin-top: 5%;
+    ;
 }
-.table{
-    width: 100%;
-}
+
