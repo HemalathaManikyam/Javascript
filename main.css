@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    margin: 0%;
+    height: 0%;
+}
+h1{
+    color: aquamarine;
+    text-align: center;
+    margin: 150px;
+    font-size:70px;
+}
+.container{
+    font-family: sans-serif;
+    font-weight: bold;
+    color:black;
+    position: absolute;
+    display: block;
+    background-color:rgb(0, 255, 247);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+}
